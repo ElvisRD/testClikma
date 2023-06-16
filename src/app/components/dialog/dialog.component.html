@@ -1,0 +1,27 @@
+<<ng-container *ngIf="pokemon">
+    <p-dialog class="dialog" header="{{pokemon.name}}" [(visible)]="visible" [modal]="true" (onHide)="closeDialog()" [draggable]="false" [resizable]="false" >
+        <div class="d-flex justify-content-center">
+            <app-carrusel [imgs]="pokemon.sprites"></app-carrusel>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="numberPokemon"><strong>Nro. {{pokemon.id}}</strong></p>
+        </div>
+        <div class="d-flex w-100 justify-content-around flex-row">
+            <div *ngFor="let type of pokemon.types">
+              <div class="div-type" [style.background-color]="type.type.color">
+                <p class="text-type">{{type.type.name}}</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex mt-4 justify-content-around ">
+            <div class="d-flex w-25 flex-column align-items-center">
+              <p><strong>Peso</strong></p>
+              <p class="weight-text">{{pokemon.weight}} kg</p>
+            </div>
+            <div class="d-flex w-25 flex-column align-items-center">
+              <p><strong>Altura</strong></p>
+              <p class="height-text">{{pokemon.height}} m</p>
+            </div>
+        </div> 
+    </p-dialog>
+</ng-container>

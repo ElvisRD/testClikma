@@ -1,0 +1,91 @@
+.p-table{
+   min-width: 300px;
+   width: 90vw;
+}
+.p-table ::ng-deep .p-datatable .p-datatable-header{
+   border-top-left-radius: 15px;
+   background-color: #ebecec;
+   border-top-right-radius: 15px;
+}
+.p-table ::ng-deep .p-datatable .p-paginator-bottom{
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.p-table ::ng-deep .p-icon{
+   height: 13px;
+}
+
+.row-table-pokemons .row-table-empty{
+   background-color: #fffdfd;
+}
+
+td{
+   font-size: 0.7rem;
+}
+th{
+   font-size: 1rem;
+   font-weight: bold;
+}
+.buttonClear {
+   padding: 0px;
+   width: 100%;
+}
+.span > button {
+   font-size: 4rem;
+}
+
+.p-table ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page {
+  min-width: 2rem;
+  height: 2rem;
+}
+
+.row-table-empty{
+  display: flex;
+  justify-content: center;
+}
+.row-table-pokemons:hover{
+   background-color: #ebecec;
+}
+
+@media (min-width: 400px) { 
+   .p-table{
+   width: 80vw;
+   }
+   td{
+      font-size: 0.9rem;
+   }
+   th{
+      font-size: 1.2rem;
+      font-weight: bold;
+   }
+   .p-table ::ng-deep .p-icon{
+      height: 15px;
+   }
+}
+
+@media (min-width: 700px) { 
+   .p-table{
+      width: 50vw;
+   }
+   .p-table ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page{
+      font-size: 1rem; 
+    }
+   td{
+      font-size: 1.2rem;
+   }
+   th{
+      font-size: 1.4rem;
+      font-weight: bold;
+   }
+   .p-table ::ng-deep .p-icon{
+      height: 20px;
+   }
+   .p-table ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page {
+      min-width: 3rem;
+      height: 3rem;
+    }
+}
+
+
+
+

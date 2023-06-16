@@ -1,0 +1,24 @@
+.containerImgs{
+    width: 300px;
+    height: 300px;
+}
+.iconCarrusel{ 
+    filter: invert(100%);
+}
+.carousel-control-prev{
+    position: absolute;
+    left: -20px;
+}
+.carousel-control-next{
+    position: absolute;
+    right: -20px;
+}
+.containerSpinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.p-progress-spinner {
+    color: gray; 
+}

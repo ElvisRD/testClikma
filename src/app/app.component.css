@@ -19,6 +19,10 @@
    background-color: #fffdfd;
 }
 
+.iconClear:hover{
+   opacity: 0.5;
+}
+
 td{
    font-size: 0.7rem;
 }
@@ -26,7 +30,7 @@ th{
    font-size: 1rem;
    font-weight: bold;
 }
-.buttonClear {
+.div-buttonClear {
    padding: 0px;
    width: 100%;
 }

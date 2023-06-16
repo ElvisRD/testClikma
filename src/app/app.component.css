@@ -11,9 +11,6 @@
    border-bottom-left-radius: 15px;
    border-bottom-right-radius: 15px;
 }
-.p-table ::ng-deep .p-icon{
-   height: 13px;
-}
 
 .row-table-pokemons .row-table-empty{
    background-color: #fffdfd;
@@ -23,19 +20,16 @@
    opacity: 0.5;
 }
 
-td{
+.td-table{
    font-size: 0.7rem;
 }
-th{
+.th-table{
    font-size: 1rem;
    font-weight: bold;
 }
 .div-buttonClear {
    padding: 0px;
    width: 100%;
-}
-.span > button {
-   font-size: 4rem;
 }
 
 .p-table ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page {
@@ -55,15 +49,12 @@ th{
    .p-table{
    width: 80vw;
    }
-   td{
+   .td-table{
       font-size: 0.9rem;
    }
-   th{
+   .th-table{
       font-size: 1.2rem;
       font-weight: bold;
-   }
-   .p-table ::ng-deep .p-icon{
-      height: 15px;
    }
 }
 
@@ -74,16 +65,14 @@ th{
    .p-table ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page{
       font-size: 1rem; 
     }
-   td{
+   .td-table{
       font-size: 1.2rem;
    }
-   th{
+   .th-table{
       font-size: 1.4rem;
       font-weight: bold;
    }
-   .p-table ::ng-deep .p-icon{
-      height: 20px;
-   }
+   
    .p-table ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page {
       min-width: 3rem;
       height: 3rem;
